@@ -49,7 +49,7 @@ public class DeploymentOperator {
             }
             System.out.println("Deployment successfully synced deployment: " + deploymentName);
         } catch (Exception e) {
-            System.out.println("Deployment sync failed: " + e.getMessage());
+            System.out.println("Deployment sync failed : " + e.getMessage());
         }
     }
 }
